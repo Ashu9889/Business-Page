@@ -1,0 +1,325 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+header{
+  background-color:grey;
+}
+
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+  padding: 40px;
+}
+.logo img{
+     width: 6rem;
+}
+
+.list{
+  list-style-type: none;
+  margin-left:  35rem ;
+  margin-right: 2rem;
+}
+
+.list-item{
+  float: left;
+  padding-left: 20px ;
+  padding-right: 20px;
+  padding-top: 10px;
+  color: white;
+}
+
+.nav-button button{
+  padding: 10px 40px ;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.header-section{
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content:center;
+  align-items: center;
+  gap: 10%;
+  padding-bottom: 70px;
+
+
+}
+
+.header-section .left-section img{
+
+  width: 30rem ;
+  height: 35rem;
+}
+
+.header-section .right-section{
+
+  width: 40%;
+}
+.header-section .right-section h1{
+  font-size: 4rem;
+  color: white;
+  line-height: 5rem;
+  padding-bottom: 20px;
+}
+
+.header-section .right-section p{
+  /* font-size: 13px; */
+  color:whitesmoke;
+  /* line-height: 5rem; */
+  padding-bottom: 20px;
+}
+
+.header-section .right-section div{
+  display:inline-block;
+  background-color: white;
+  padding: 10px 20px;
+}
+
+.header-section .right-section div input{
+
+  border: none;
+  margin-right: 100px;
+  margin-left: 10px;
+  font-size: medium;
+}
+
+.header-section .right-section div button{
+ 
+  background-color: green;
+  color: white;
+  padding: 10px 50px ;
+  font-size: 20px;
+  border: none;
+}
+
+.header-section .right-section div i{
+ font-size: 1rem;
+}
+
+.work-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center;
+  margin: 5% 0px;
+  /* font-size: 25px; */
+  text-align: center;
+}
+
+.work-section .top-heading{
+  width: 100%;
+  
+  margin-bottom: 5%;
+}
+
+.card{
+  width:20%
+  
+}
+.card h1{
+  font-size: 30px;
+}
+
+.card h3{
+  font-size: 20px;
+  color: gray;
+}
+
+.work-section div:last-child{
+  margin:5%;
+}
+.work-section div img{
+  width:  80vw;
+  height: 80vh;
+}
+
+
+.about-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center;
+  margin: 5% 0px;
+  gap:10%
+
+}
+.about-section .top-heading{
+  width: 100%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+
+.about-section .right-section1 img{
+
+  width: 30rem ;
+  height: 30rem;
+}
+
+.about-section .left-section1{
+
+  width: 40%;
+}
+.about-section .left-section1 h1{
+  font-size: 3rem;
+  padding-bottom: 20px;
+  text-align:left;
+}
+
+.about-section .left-section1 p{
+  padding-bottom: 20px;
+  text-align:left;
+}
+
+.section1{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center;
+  margin: 5% 0px;
+  gap:10%
+}
+/* .............................section2............................. */
+
+.section2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center;
+  margin: 5% 0px;
+  gap:10%
+}
+
+.about-section .left-section2 img{
+
+  width: 30rem ;
+  height: 30rem;
+}
+
+.about-section .right-section2{
+
+  width: 40%;
+}
+.about-section .right-section2 h1{
+  font-size: 3rem;
+  padding-bottom: 20px;
+  text-align:left;
+}
+
+.about-section .right-section2 p{
+  padding-bottom: 20px;
+  text-align:left;
+}
+
+
+.team-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+  gap: 10%;
+
+}
+
+.team-section .left-section{
+  font-size: 3rem;
+  margin-bottom: 5%;
+  width: 30%;
+}
+.team-section .right-section{
+  width: 40%;
+  margin-bottom: 5%;
+  font-size: 1.5rem;
+  text-align: left;
+  color: grey;
+}
+
+.team-section .cards{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2%;
+  text-align: left;
+}
+.team-section .cards .card{
+  
+  width: 25%;
+}
+.team-section .cards .card img{
+  
+  width: 350px;
+  height: 400px;
+}
+
+.team-section div button{
+  padding: 20px 60px ;
+  background-color: darkgreen;
+  color: white;
+  border: none;
+  margin: 50px 0px ;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  padding: 5% 10%;
+}
+
+.top{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  margin-bottom: 50px;
+}
+
+.top .left-section img{
+
+  width: 8rem;
+
+}
+
+.top .right-section span{
+    padding: 13px 13px ;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 0px 2px ;
+}
+
+.bottom{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+.line1{
+  line-height: 2.5rem;
+}
+.line1 h1{
+  font-size: 20px;
+}
+.line1 ul{
+
+  list-style-type: none;
+}
+hr{
+   background-color:grey;
+  height: 0px;
+  margin-bottom: 50px;
+}
+
+.line1 ul li{
+  color: gray;
+}
