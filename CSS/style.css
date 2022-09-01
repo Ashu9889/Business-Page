@@ -391,314 +391,314 @@ hr{
 
 @media only screen and (max-width:1070px) {
     
-  .nav-button button{
-      padding: 7px 20px ;
-    }
-
-    .header-section .left-section img{
-
-      width: 30rem ;
-      height: 35rem;
-    }
-     
-    .header-section .left-section{
-      width: 40%;
-     
-     
+    .nav-button button{
+        padding: 7px 20px ;
       }
+
       .header-section .left-section img{
-          width: 80%;
-          height: 400px;
-          border-radius: 10px;
-        
+
+        width: 30rem ;
+        height: 35rem;
+      }
+       
+      .header-section .left-section{
+        width: 40%;
+       
+       
         }
-      
-  .header-section .right-section h1{
-      font-size: 2rem;
-   
-  }
-
-  .header-section .right-section div input{
-
-      border: none;
-      font-size: 13px;
-      width:  180px;
-      height: 40px;
-      padding-left: 30px ;
-    
-    }
-    
-    .header-section .right-section div button{
-     
-      width: 8%;
-      height: 40px;
-      font-size: 13px;
-     
-    
-    }
-    
-    .header-section .right-section div i{
-   
-     padding-block: 12px;
-     padding-inline: 9px;
-    }
-  
-    .card h1{
-      font-size: 1rem;
-    }
-    
-    .card h3{
-      font-size: 1rem;
-      color: gray;
-    }
-
-    .section1{
-      margin-block: 30px;
-    }
-    .about-section .right-section1 img{
-      width: 20rem;
-      height: 19rem;
-    }
-    
-  .about-section .left-section1{
-
-      width: 50%;
-  }
-  .section2{
-      margin-block: 30px;
-      justify-content:space-between;
-  }
-  .about-section .left-section2 img{
-
-      width: 20rem ;
-      height: 25rem;
-    }
-    
-    .about-section .right-section2{
-    
-      width: 50%;
-    }
+        .header-section .left-section img{
+            width: 80%;
+            height: 400px;
+            border-radius: 10px;
           
-    .about-section .left-section1 button{
+          }
+        
+    .header-section .right-section h1{
+        font-size: 2rem;
+     
+    }
 
-      
-      width: 100px;
-      height: 30px;
-      font-size: 1rem;
-      border: none;
-      position: absolute;
-    
-    }
-    .about-section .right-section2 button{
+    .header-section .right-section div input{
 
+        border: none;
+        font-size: 13px;
+        width:  180px;
+        height: 40px;
+        padding-left: 30px ;
       
-      width: 100px;
-      height: 30px;
-      font-size: 1rem;
-      border: none;
-      position: absolute;
+      }
+      
+      .header-section .right-section div button{
+       
+        width: 8%;
+        height: 40px;
+        font-size: 13px;
+       
+      
+      }
+      
+      .header-section .right-section div i{
+     
+       padding-block: 12px;
+       padding-inline: 9px;
+      }
     
-    }
-  
-    .team-section .left-section{
-      font-size: 2rem;
-  
-      width: 40%;
-    }
-    .team-section .right-section{
-      width: 40%;
-  
-      font-size: 1rem;
+      .card h1{
+        font-size: 1rem;
+      }
       
+      .card h3{
+        font-size: 1rem;
+        color: gray;
+      }
+  
+      .section1{
+        margin-block: 30px;
+      }
+      .about-section .right-section1 img{
+        width: 20rem;
+        height: 19rem;
+      }
+      
+    .about-section .left-section1{
+
+        width: 50%;
     }
-    .team-section .cards .card{
-      width: 30%;
+    .section2{
+        margin-block: 30px;
+        justify-content:space-between;
     }
+    .about-section .left-section2 img{
+
+        width: 20rem ;
+        height: 25rem;
+      }
+      
+      .about-section .right-section2{
+      
+        width: 50%;
+      }
+            
+      .about-section .left-section1 button{
+ 
+        
+        width: 100px;
+        height: 30px;
+        font-size: 1rem;
+        border: none;
+        position: absolute;
+      
+      }
+      .about-section .right-section2 button{
+ 
+        
+        width: 100px;
+        height: 30px;
+        font-size: 1rem;
+        border: none;
+        position: absolute;
+      
+      }
+    
+      .team-section .left-section{
+        font-size: 2rem;
+    
+        width: 40%;
+      }
+      .team-section .right-section{
+        width: 40%;
+    
+        font-size: 1rem;
+        
+      }
+      .team-section .cards .card{
+        width: 30%;
+      }
 
 }
 
 @media only screen  and (max-width:700px){
 
-  .nav-list,  .nav-button{
-      display: none;
-  }
-
-  .ham{
-      display: inline-block;
-  }
+    .nav-list,  .nav-button{
+        display: none;
+    }
   
-  /* Header Section */
-
-  .header-section{
-      
-      flex-direction: column;
-      justify-content: space-around;
-      gap: 30px;
-    
-    }
-
-  .header-section .left-section{
-      width: 100%;
-  }
-  .header-section .right-section{
-      width: 95%;
-      text-align: center;
-  }
-
-  .header-section .right-section h1{
-      font-size: 2.5rem;
-      width: 100%;
+    .ham{
+        display: inline-block;
     }
     
-    .header-section .right-section p{
-      font-size: 1rem;
-      width: 100%;
-    }
-    .header-section .right-section div input{
+    /* Header Section */
 
-      width:  250px;
-      height: 50px;
- 
+    .header-section{
+        
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 30px;
       
-    
+      }
+
+    .header-section .left-section{
+        width: 100%;
     }
-    .header-section .right-section div button{
-      width: 15%;
-      height: 50px;
-      right:14% ;
+    .header-section .right-section{
+        width: 95%;
+        text-align: center;
+    }
+
+    .header-section .right-section h1{
+        font-size: 2.5rem;
+        width: 100%;
+      }
       
-    }
+      .header-section .right-section p{
+        font-size: 1rem;
+        width: 100%;
+      }
+      .header-section .right-section div input{
+
+        width:  180px;
+        height: 50px;
    
-    .header-section .right-section div i{
-      padding-block: 16px;
-      padding-inline: 13px;
-     }
-
-     .section1{
-      flex-direction: column-reverse;
-      gap: 30px;
-      text-align: center;
-     }
-     .section2{
-      flex-direction: column;
-      gap: 30px;
-      text-align: center;
-     }
-
-     .about-section .right-section1{
-      width: 90%;
-      text-align: center;
-    }
-    .about-section .right-section1 img{
-    
-      width: 80%
-    }
-    
-    .about-section .left-section1{
-    
-      width: 95%;
-    }
-    .about-section .left-section1 h1{
-      font-size: 2rem;
-      padding-bottom: 20px;
-      text-align:center;
-      width: 100%;
-    }
-    
-    .about-section .left-section1 p{
-      padding-bottom: 20px;
-      text-align:center;
-      width: 100%;
-    }
-    .about-section .left-section1 button{
-     
-      background-color: green;
-      color: white;
-      width: 100px;
-      height: 50px;
-      font-size: 1.2rem;
-      border: none;
-      position: static;
-    
-    }
-
-
-    .about-section .left-section2{
-      width: 90%;
-      text-align: center;
-    }
-    .about-section .left-section2 img{
-      width: 80%
+        
       
-    }
-    
-    .about-section .right-section2{
-    
-      width: 95%;
-    }
-    .about-section .right-section2 h1{
-      font-size: 2rem;
-      padding-bottom: 20px;
-      text-align:center;
-      width: 100%;
-    }
-    
-    .about-section .right-section2 p{
-      padding-bottom: 20px;
-      text-align:center;
-      width: 100%;
-    }
-    .about-section .right-section2 button{
-     
-      background-color: green;
-      color: white;
-      width: 100px;
-      height: 40px;
-      font-size: 1.2rem;
-      border: none;
-      position: static;
-    
-    }
-
-    .team-section{
-   
-    }
-    .team-section .left-section{
-      font-size: 2.5rem;
-      width: 95%;
-      text-align: center;
-    }
-    .team-section .right-section{
-      width: 95%;
-  
-      font-size: 1.3rem;
-      text-align: center;
+      }
+      .header-section .right-section div button{
+        width: 15%;
+        height: 50px;
       
-    }
-    .team-section .cards{
-          gap: 30px;
-          text-align: center;
-    }
+        
+      }
+     
+      .header-section .right-section div i{
+        padding-block: 16px;
+        padding-inline: 13px;
+       }
+
+       .section1{
+        flex-direction: column-reverse;
+        gap: 30px;
+        text-align: center;
+       }
+       .section2{
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+       }
+
+       .about-section .right-section1{
+        width: 90%;
+        text-align: center;
+      }
+      .about-section .right-section1 img{
+      
+        width: 80%
+      }
+      
+      .about-section .left-section1{
+      
+        width: 95%;
+      }
+      .about-section .left-section1 h1{
+        font-size: 2rem;
+        padding-bottom: 20px;
+        text-align:center;
+        width: 100%;
+      }
+      
+      .about-section .left-section1 p{
+        padding-bottom: 20px;
+        text-align:center;
+        width: 100%;
+      }
+      .about-section .left-section1 button{
+       
+        background-color: green;
+        color: white;
+        width: 100px;
+        height: 50px;
+        font-size: 1.2rem;
+        border: none;
+        position: static;
+      
+      }
+
+
+      .about-section .left-section2{
+        width: 90%;
+        text-align: center;
+      }
+      .about-section .left-section2 img{
+        width: 80%
+        
+      }
+      
+      .about-section .right-section2{
+      
+        width: 95%;
+      }
+      .about-section .right-section2 h1{
+        font-size: 2rem;
+        padding-bottom: 20px;
+        text-align:center;
+        width: 100%;
+      }
+      
+      .about-section .right-section2 p{
+        padding-bottom: 20px;
+        text-align:center;
+        width: 100%;
+      }
+      .about-section .right-section2 button{
+       
+        background-color: green;
+        color: white;
+        width: 100px;
+        height: 40px;
+        font-size: 1.2rem;
+        border: none;
+        position: static;
+      
+      }
+
+      .team-section{
+     
+      }
+      .team-section .left-section{
+        font-size: 2.5rem;
+        width: 95%;
+        text-align: center;
+      }
+      .team-section .right-section{
+        width: 95%;
     
-    .team-section .cards .card{
-      width: 70%;
-    }
-    .top{
-      justify-content: center;
-    }
-    .bottom{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content:space-evenly;
-      /* flex-direction: column; */
-      /* text-align: center; */
-      gap:20px;
-    
-    }
-    .line1{
-      width: 40%;
-    }
-    .footer{
-      padding: 0;
-    }
+        font-size: 1.3rem;
+        text-align: center;
+        
+      }
+      .team-section .cards{
+            gap: 30px;
+            text-align: center;
+      }
+      
+      .team-section .cards .card{
+        width: 70%;
+      }
+      .top{
+        justify-content: center;
+      }
+      .bottom{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+        /* flex-direction: column; */
+        /* text-align: center; */
+        gap:20px;
+      
+      }
+      .line1{
+        width: 40%;
+      }
+      .footer{
+        padding: 0;
+      }
 }
